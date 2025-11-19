@@ -8,8 +8,9 @@ import sys
 from bleak import BleakClient
 from Crypto.Cipher import AES
 
-# Device address
-DEVICE_ADDRESS = "F0E047EE-ECB2-EAF3-D11B-1C52E2751387"
+# Device address - UPDATE THIS with your device UUID
+# Find your device UUID by running: python3 bt_discover.py
+DEVICE_ADDRESS = "YOUR-DEVICE-UUID-HERE"
 
 # Protocol constants
 SERVICE_UUID = "0000fff0-0000-1000-8000-00805f9b34fb"

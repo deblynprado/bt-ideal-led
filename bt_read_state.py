@@ -3,8 +3,9 @@
 import asyncio
 from bleak import BleakClient
 
-# Device address - UPDATE THIS
-DEVICE_ADDRESS = "F0E047EE-ECB2-EAF3-D11B-1C52E2751387"
+# Device address - UPDATE THIS with your device UUID
+# Find your device UUID by running: python3 bt_discover.py
+DEVICE_ADDRESS = "YOUR-DEVICE-UUID-HERE"
 
 # The characteristic that controls power
 POWER_CHAR_UUID = "d44bc439-abfd-45a2-b575-92541612960b"
